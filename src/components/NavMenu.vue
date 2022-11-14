@@ -1,16 +1,42 @@
+<script setup>
+import { ref } from 'vue'
+const brand = ref('Pinkdrink and Matcha')
+</script>
+
 <template>
   <nav>
-    <RouterLink to="/">Home</RouterLink>
-    <RouterLink to="/other">Product</RouterLink>
+    <div class="wrapper">
+      <div class="brand">
+        <span class="brand-title">{{ brand }}</span>
+      </div>
+      <div class="menu">
+        <a href="#" class="menu-item">Products</a>
+        <a href="#" class="menu-item">Shopping Cart</a>
+        <a href="#" class="menu-login">Logout</a>
+      </div>
+    </div>
   </nav>
 </template>
 
-<style lang="postcss" scoped>
+<style scoped lang="postcss">
 nav {
-  @apply flex justify-center space-x-4;
-
-  & .router-link-active {
-    @apply underline underline-offset-4;
+  @apply flex h-20 bg-rose-300 text-lime-400;
+  .wrapper {
+    @apply container mx-auto flex w-full items-center justify-between;
+    .brand {
+      &-title {
+        @apply text-2xl font-bold text-yellow-800;
+      }
+    }
+    .menu {
+      @apply flex gap-2;
+      &-item {
+        @apply rounded-md px-4 py-2 hover:bg-yellow-500 hover:text-slate-900;
+      }
+      &-login {
+        @apply rounded-md bg-red-500 px-4 py-2 text-red-100 hover:bg-red-700;
+      }
+    }
   }
 }
 </style>
