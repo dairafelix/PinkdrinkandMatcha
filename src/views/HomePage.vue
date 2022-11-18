@@ -1,6 +1,6 @@
 <template>
   <!--Shop Banner -->
-  <img class="w-full" src="banner.png" />
+  <img class="w-full" src="../assets/images/banner.png" />
   <!-- New Items/Inventory-->
   <div class="divider">
     <h1>NEW ARRIVALS</h1>

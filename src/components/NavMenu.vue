@@ -6,7 +6,7 @@
   </div>
   <nav>
     <div class="wrapper">
-      <img width="300" src="logo.png" />
+      <img width="300" src="../assets/images/logo.png" />
       <div class="menu">
         <a href="#" class="menu-item">Home</a>
         <a href="#" class="menu-item">Shop</a>
