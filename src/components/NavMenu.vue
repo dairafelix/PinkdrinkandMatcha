@@ -8,11 +8,11 @@
     <div class="wrapper">
       <img width="300" src="../assets/images/logo.png" />
       <div class="menu">
-        <a href="#" class="menu-item">Home</a>
-        <a href="#" class="menu-item">Shop</a>
-        <a href="#" class="menu-item">About</a>
+        <RouterLink :to="{ name: 'Home' }" href="#" class="menu-item">Home</RouterLink>
+        <RouterLink :to="{ name: 'Products' }" href="#" class="menu-item">Shop</RouterLink>
+        <RouterLink :to="{ name: 'About' }" href="#" class="menu-item">About</RouterLink>
         <!--Display the number of items on cart-->
-        <a href="#" class="menu-item">🛒(0)</a>
+        <RouterLink :to="{ name: 'Cart' }" href="#" class="menu-item">🛒(0)</RouterLink>
         <a href="#" class="menu-login">Logout</a>
       </div>
     </div>
