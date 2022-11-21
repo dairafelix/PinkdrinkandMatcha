@@ -43,7 +43,7 @@
     <div class="p-2">
       <!--Card 3-->
       <div class="overflow-hidden rounded shadow-lg">
-        <img class="w-full" src="/product.jpg" alt="Product" />
+        <img class="w-full" src="../assets/images/product.jpg" alt="Product" />
         <div class="px-6 py-4">
           <div class="mb-2 text-xl font-bold">Title</div>
           <p class="text-base text-gray-700">
@@ -61,7 +61,7 @@
     <div class="p-4">
       <!--Card 4-->
       <div class="overflow-hidden rounded shadow-lg">
-        <img class="w-full" src="/product.jpg" alt="Product" />
+        <img class="w-full" src="../assets/images/product.jpg" alt="Product" />
         <div class="px-6 py-4">
           <div class="mb-2 text-xl font-bold">Title</div>
           <p class="text-base text-gray-700">
@@ -81,7 +81,7 @@
     <div class="p-4">
       <!--Card 1-->
       <div class="overflow-hidden rounded shadow-lg">
-        <img class="w-full" src="/product.jpg" alt="Product" />
+        <img class="w-full" src="../assets/images/product.jpg" alt="Product" />
         <div class="px-6 py-4">
           <div class="mb-2 text-xl font-bold">Title</div>
           <p class="text-base text-gray-700">
@@ -99,7 +99,7 @@
     <div class="p-4">
       <!--Card 2-->
       <div class="overflow-hidden rounded shadow-lg">
-        <img class="w-full" src="/product.jpg" alt="Product" />
+        <img class="w-full" src="../assets/images/product.jpg" alt="Product" />
         <div class="px-6 py-4">
           <div class="mb-2 text-xl font-bold">Title</div>
           <p class="text-base text-gray-700">
@@ -117,7 +117,7 @@
     <div class="p-4">
       <!--Card 3-->
       <div class="overflow-hidden rounded shadow-lg">
-        <img class="w-full" src="/product.jpg" alt="Product" />
+        <img class="w-full" src="../assets/images/product.jpg" alt="Product" />
         <div class="px-6 py-4">
           <div class="mb-2 text-xl font-bold">Title</div>
           <p class="text-base text-gray-700">
@@ -135,7 +135,7 @@
     <div class="p-4">
       <!--Card 4-->
       <div class="overflow-hidden rounded shadow-lg">
-        <img class="w-full" src="/product.jpg" alt="Product" />
+        <img class="w-full" src="../assets/images/product.jpg" alt="Product" />
         <div class="px-6 py-4">
           <div class="mb-2 text-xl font-bold">Title</div>
           <p class="text-base text-gray-700">
