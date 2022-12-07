@@ -12,8 +12,8 @@
         <RouterLink :to="{ name: 'Products' }" href="#" class="menu-item">Shop</RouterLink>
         <RouterLink :to="{ name: 'About' }" href="#" class="menu-item">About</RouterLink>
         <!--Display the number of items on cart-->
-        <RouterLink :to="{ name: 'Cart' }" href="#" class="menu-item">🛒(0)</RouterLink>
-        <a href="#" class="menu-login">Logout</a>
+        <RouterLink :to="{ name: 'Cart' }" href="#" class="menu-item">🛒(5)</RouterLink>
+        <RouterLink :to="{ name: 'Login' }" href="#" class="menu-login">LogIn</RouterLink>
       </div>
     </div>
   </nav>
